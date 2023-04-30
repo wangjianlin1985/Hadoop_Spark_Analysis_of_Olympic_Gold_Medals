@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HydraSettings">
+    <option name="hydraStorePath" value="D:\项目系统调试区\奥运hadoop\olympicSummer 2\.hydra\idea" />
+    <option name="noOfCores" value="4" />
+    <option name="projectRoot" value="D:\项目系统调试区\奥运hadoop\olympicSummer 2" />
+    <option name="sourcePartitioner" value="auto" />
+  </component>
+</project>

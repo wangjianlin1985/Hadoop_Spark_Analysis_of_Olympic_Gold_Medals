@@ -1,0 +1,25 @@
+IP = "127.0.0.1"
+MYSQL_USER = "root"
+MYSQL_PASSWORD = "123456"
+MYSQL_DATABASE = "book"
+TABLE = "olympic"
+MYSQL_PORT = "3306"
+#HADOOP_HOME = '/usr/local/src/hadoop/'
+HADOOP_HOME = 'D:/Software/bigdata/hadoop-2.7.7/'
+#SPARK_HOME = '/usr/local/src/spark/'
+SPARK_HOME = 'D:/Software/bigdata/spark-2.4.3-bin-hadoop2.7/'
+#HIVE_HOME = '/usr/local/src/hive/'
+HIVE_HOME = 'D:/Software/bigdata/apache-hive-2.1.1-bin/'
+#SQOOP_HOME = '/usr/local/src/SQOOP/'
+SQOOP_HOME = 'D:/Software/bigdata/sqoop-1.4.7/'
+
+#INPUT_CSV = '/Users/xiaoguang/PycharmProjects/flaskProject/olympic/datas/summer.csv'
+INPUT_CSV = 'D:/项目系统调试区/奥运hadoop/flaskProject/olympic/datas/summer.csv'
+#INPUT_JARS = '/Users/xiaoguang/PycharmProjects/flaskProject/olympic/datas/olympicSummer-1.0-SNAPSHOT.jar'
+#INPUT_JARS = 'D:/项目系统调试区/奥运hadoop/flaskProject/olympic/datas/olympicSummer-1.0-SNAPSHOT.jar'
+INPUT_JARS = 'datas/olympicSummer-1.0-SNAPSHOT.jar'
+HDFS_FILE = "/demoData/summer.csv"
+SPARK_OUT_FILE = "/demoData/olympicOUT/"
+#HADOOP_PORT = "hdfs://{}:{}".format('172.17.3.173', "8020")
+HADOOP_PORT = "hdfs://{}:{}".format('127.0.0.1', "9000")
+MYSQL_QU_TABLE = "adc"
